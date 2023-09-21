@@ -5,7 +5,7 @@ This repository contains a Python script for automating the restart of WiFi devi
 Before using this script, make sure you have the following prerequisites in place:
 
 **.** Python installed on your system.
-**.** The <code>'subprocess'</code>, <code>'smtplib<'/code>, and <code>email</code> modules, which are used for executing commands and sending email notifications.
+**.** The <code>**'subprocess'**</code>, <code>**'smtplib'**</code>, and <code>**'email'**</code> modules, which are used for executing commands and sending email notifications.
 **.** **Plink** (PuTTY Link) installed on your system. Plink is used for SSH connections.
 **.** Access to the target WiFi devices with SSH credentials.
 
