@@ -20,23 +20,20 @@ Before running the script, you need to configure the following variables in the 
 **.**  <code>sender_email</code>: The email address from which you want to send notifications.
 Next, define the list of WiFi devices you want to restart. For each device, provide the following information:
 
-**.**  <code>wifi_ip: The IP address of the WiFi device.
-**.**  <code>ssh_user: The SSH username for connecting to the WiFi device.
-**.**  <code>ssh_password: The SSH password for connecting to the WiFi device.
-
+**.**  <code> wifi_ip: The IP address of the WiFi device.
+**.**  <code> ssh_user: The SSH username for connecting to the WiFi device.
+**.**  <code> ssh_password: The SSH password for connecting to the WiFi device.
 # Usage
-
 1. Clone this repository to your local machine.
 <code> git clone https://github.com/yourusername/automated-wifi-restart-script.git </code>
-
-1. Navigate to the repository directory.
+2. Navigate to the repository directory.
 <code>cd automated-wifi-restart-script</code>
-
 
 1. Open the <code>wifi_restart_script.py</code> file and configure the variables as described in the "Configuration" section above.
 
 Run the script using the following command:
-<code>python wifi_restart_script.py</code>
+<code> python wifi_restart_script.py</code>
+
 The script will execute the specified remote command (default: 'restart') on each WiFi device in the list. It will send email notifications for successful and failed executions.
 
 ## Email Notifications
